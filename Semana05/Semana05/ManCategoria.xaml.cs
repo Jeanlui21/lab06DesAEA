@@ -23,10 +23,10 @@ namespace Semana05
     {
         public int ID { get; set; }
 
-        public ManCategoria(int Id)
+        public ManCategoria()
         {
             InitializeComponent();
-            ID = Id;
+          //  ID = Id;
             if (ID > 0)
             {
                 BCategoria bCategoria = new BCategoria();

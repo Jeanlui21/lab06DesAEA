@@ -25,7 +25,7 @@ namespace Semana05.ViewModel
 
         void Abrir()
         {
-            ViewModel.ManCategoria window = new ViewModel.ManCategoria();
+            ManCategoria window = new ManCategoria();
             window.ShowDialog();
         }
     }
